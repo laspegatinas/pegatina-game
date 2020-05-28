@@ -34,7 +34,7 @@ class SpotifyRoundOne extends React.Component {
     // All the songs that the user guessed wrong are pushed into this array
     unknownSongs= [];
 
-    NUMBER_OF_SONGS_TO_PLAY_WITH = 2
+    NUMBER_OF_SONGS_TO_PLAY_WITH = 10
 
 
     state = {
