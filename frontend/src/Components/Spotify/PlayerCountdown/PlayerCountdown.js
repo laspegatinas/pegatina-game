@@ -9,7 +9,7 @@ import './PlayerCountdown.css';
 // import texts from '../../../texts.json';
 import next2 from '../../../Pictures/next2.gif';
 
-const SONG_TIMER_DURATION = 10;
+const SONG_TIMER_DURATION = 0.2;
 
 class PlayerCountdown extends Component {
 

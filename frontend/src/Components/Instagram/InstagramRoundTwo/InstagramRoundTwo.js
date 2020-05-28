@@ -13,7 +13,7 @@ import '../Instagram.css';
 
 class InstagramRoundTwo extends Component {
 
-    NUMBER_OF_ATTEMPTS = 2
+    NUMBER_OF_ATTEMPTS = 5
 
     OFICIAL_NUMBER_OF_ATTEMPTS = this.NUMBER_OF_ATTEMPTS - 1
 
