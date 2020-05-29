@@ -14,7 +14,7 @@
         "videosText": "Vídeos",
         "roundOneText": "Ronda 1",
         "roundTwoText": "Ronda 2",
-        "roundTwoYoutube": "será disponible pronto!",
+        "roundTwoYoutube": "Serà disponible aviat...",
         "startText": "Comença!",
         "shareSongs": "Comparteix les cançons",
         "sharePoints": "Comparteix els teus punts",
@@ -52,10 +52,10 @@
         "chooseBandMemnberText": "Amb quin membre de La Pegatina vols jugar?",
         "chooseConcertText": "Amb quin concert vols jugar?",
         "keepPointsPlayMoreText": "Suma els punts i segueix jugant",
-        "saveList": "",
-        "playlistInstruct": "",
-        "addToList": "",
-        "playlistName": ""
+        "saveList": "Guardar",
+        "playlistInstruct": "T'agrada? Posa-la en Spotify",
+        "addToList": "+",
+        "playlistName": "Dóna-li un nom a la llista"
     },
 
     "spanish" : {
@@ -73,7 +73,7 @@
         "videosText": "Vídeos",
         "roundOneText": "Ronda 1",
         "roundTwoText": "Ronda 2",
-        "roundTwoYoutube": "será disponible pronto!",
+        "roundTwoYoutube": "Será disponible pronto...",
         "startText": "¡Empieza!",
         "shareSongs": "Comparte las canciones",
         "sharePoints": "Comparte tus puntos",
@@ -134,7 +134,7 @@
         "videosText": "Videos",
         "roundOneText": "Ronda 1",
         "roundTwoText": "Ronda 2",
-        "roundTwoYoutube": "será disponible pronto!",
+        "roundTwoYoutube": "Coming Soon...",
         "startText": "Start!",
         "shareSongs": "Share the songs",
         "sharePoints": "Share your score",
@@ -143,7 +143,7 @@
         "spotifyRoundOneQuestion": "What's the name of the song?",
         "spotifyRoundTwoQuestion": "What's the next song on the album after this one?",
         "instagramRoundTwoQuestion": "Where did we took this picture?",
-        "youtubeQuestion": "What song is this video from?",
+        "youtubeQuestion": "How much do you know about the video?",
         "endText": "You've reached the end!",
         "instagramRoundOneQuestion": "Who's tagged in this picture?",
         "secondsText": "seconds",
@@ -173,7 +173,7 @@
         "keepPointsPlayMoreText": "Keep your points and keep playing",
         "saveList": "Save",
         "playlistInstruct": "Like what you hear? You can create a Spotify Playlist with it now!",
-        "addToList": "Add to Playlist",
+        "addToList": "+",
         "playlistName": "Name your list to save it to your Spotify account"
     },
 
@@ -192,7 +192,7 @@
         "videosText": "Vidéos",
         "roundOneText": "Ronda 1",
         "roundTwoText": "Ronda 2",
-        "roundTwoYoutube": "será disponible pronto!",
+        "roundTwoYoutube": "Sera disponible bientôt...",
         "startText": "Start!",
         "shareSongs": "Partager les chansons",
         "sharePoints": "Partagez votre score",
@@ -229,10 +229,10 @@
         "chooseAlbumText": "Con qué disco quieres jugar?",
         "chooseBandMemnberText": "Con qué miembro de La Pegatina quieres jugar?",
         "chooseConcertText": "Con qué concierto quieres jugar?",
-        "keepPointsPlayMoreText": "Suma los puntis y sigue jugando",
-        "saveList": "",
-        "playlistInstruct": "Like what you hear? You can create a Spotify Playlist with it now!",
-        "addToList": "Añadir a mi lista",
-        "playlistName": ""
+        "keepPointsPlayMoreText": "Ajouter les points et continuer à jouer",
+        "saveList": "Enregistrer",
+        "playlistInstruct": "Aimez-vous les chansons que vous entendez? Vous pouvez créer une playlist y ajoutez-les pour Spotify!",
+        "addToList": "+",
+        "playlistName": "Nommez votre liste et enregistrez-le sur votre compte de Spotify"
     }
 }
