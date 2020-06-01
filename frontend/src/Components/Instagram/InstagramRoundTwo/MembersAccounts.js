@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { MyContext } from '../../../context/MyProvider';
 // import SocialMedia from '../../SocialMedia/SocialMedia';
 import texts from '../../../texts.json';
 import './MembersAccounts.css';
@@ -95,44 +97,46 @@ class members extends Component {
 
     setSelectedMemberId = (id) => {
 
-        const { setSelectedMemberId } = this.props;
+        const { score } = this.props;
 
-        setSelectedMemberId(id);
+        localStorage.setItem('memberId', id)
+
+        // context.addPoints(score, 'instagram', 'one')
+
     }
 
 
     render() {
-        const { setSelectedMemberId, language } = this.props;
+        const { language } = this.props;
         return (
-            <div className="instagram-container">
-                <div className="round-questions">
-                    <h2>{texts[language].instagramRoundTwoQuestion}</h2>
-                    <h3>{texts[language].chooseBandMemnberText}</h3>
-                </div>
-                <div className="band-members">
-                    {this.membersaccounts.map((memberaccount) => (
-                        <div className="band-member">
-                            <button
-                                className=""
-                                type="button"
-                                key={memberaccount.name}
-                                onClick={() => setSelectedMemberId(memberaccount.id)}
-                            >
-                                {/* <p>{memberaccount.name}</p>
-                                <p>{memberaccount.username}</p> */}
-                                <img src={memberaccount.gif} alt="member profile pic" />
-                            </button>
+            // <MyContext.Consumer>
+            //     {(context) => (
+                    <div className="instagram-container">
+                        <div className="round-questions">
+                            <h2>{texts[language].instagramRoundTwoQuestion}</h2>
+                            <h3>{texts[language].chooseBandMemnberText}</h3>
                         </div>
+                        <div className="band-members">
+                            {this.membersaccounts.map((memberaccount) => (
+                                <div className="band-member">
+                                    <Link to="instagramroundtwo">
+                                        <button
+                                            className=""
+                                            type="button"
+                                            key={memberaccount.name}
+                                            onClick={() => this.setSelectedMemberId(memberaccount.id)}
+                                        >
+                                            <img src={memberaccount.gif} alt="member profile pic" />
+                                        </button>
+                                    </Link>
 
-                    ))}
-                </div>
+                                </div>
 
-                {/* <div className="social-media-follow-buttons">
-                    <SocialMedia
-                        language={language}
-                    />
-                </div> */}
-            </div>
+                            ))}
+                        </div>
+                    </div>
+            //     )}
+            // </MyContext.Consumer>
         );
     }
 }

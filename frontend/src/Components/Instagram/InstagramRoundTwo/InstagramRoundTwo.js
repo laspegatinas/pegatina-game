@@ -6,7 +6,6 @@ import ButtonIgRoundTwo from './ButtonIgRoundTwo';
 import texts from '../../../texts.json';
 import Loading from '../../Utils/Loading/Loading';
 import GameEnded from '../../GameEnded/GameEnded';
-import MembersAccounts from './MembersAccounts';
 import Navbar from '../../Navbar/Navbar';
 import '../Instagram.css';
 
@@ -103,16 +102,6 @@ class InstagramRoundTwo extends Component {
         });
     }
 
-    chooseAgain = () => {
-        this.setState({
-            gameStatus: 'choosing',
-        });
-
-        this.attempts = 0;
-
-        this.counter = 0;
-    }
-
     showConfetti = () => {
         this.setState({
             giveMeConfetti: true,
@@ -133,8 +122,6 @@ class InstagramRoundTwo extends Component {
             .then(() => this.setRandomImageAndLocations());
     }
 
-
-    // 'https://codeofaninja.com/tools/find-instagram-user-id'
 
     // profileId='32402644';
     // Rut's ID
